@@ -1,75 +1,60 @@
-# Nuxt Minimal Starter
+# Projeto Nuxt - Cadastro de Membros
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Aplicação web desenvolvida utilizando Node.js, Vue.js e Nuxt.js.
 
-## Setup
+## Tecnologias utilizadas
 
-Make sure to install dependencies:
+* Node.js
+* Vue.js
+* Nuxt.js
+* TypeScript
+* HTML
+* CSS
+
+## Funcionalidades
+
+* Página inicial
+* Navegação entre páginas
+* Página de cadastro
+* Validação de formulário
+* Seleção de interesses
+* Limite de caracteres na bio
+* Feedback visual após o cadastro
+* Exibição dos dados no console
+
+## Como executar
+
+Clone o repositório:
 
 ```bash
-# npm
+git clone URL_DO_REPOSITORIO
+```
+
+Entre na pasta:
+
+```bash
+cd atividade-nuxt
+```
+
+Instale as dependências:
+
+```bash
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+Execute o projeto:
 
 ```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+Acesse no navegador:
 
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
+```text
+http://localhost:3000
 ```
 
-Locally preview production build:
+## Rotas
 
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+* `/` - Página inicial
+* `/cadastro` - Formulário de cadastro
